@@ -1,0 +1,24 @@
+#include<iostream>
+#include<math.h>
+
+using namespace std;
+
+int main() {
+	setlocale(LC_ALL, "ru");
+
+	float a;
+	int x;
+	//ввод переменных
+	cout << "введите процент присутствующих на хоре: ";
+	cin >> a;
+	cout << "введите число присутствующих в санатории: ";
+	cin >> x;
+	//вычисления
+	float horpr = a / 100;
+	int hor = horpr * x;
+	int hqmor = hor * 1.5;
+	//Ответ
+	cout << "число людей на хоре: " << hor << endl;
+	cout << "число людей на юм. концерте: " << hqmor << endl;
+	return 0;
+}
