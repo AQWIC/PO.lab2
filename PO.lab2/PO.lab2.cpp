@@ -8,5 +8,6 @@ int main() {
 	setlocale(LC_ALL, "rus");
 //ыа ыыыа ыа
 	//ыыыа ыа
+	//щас бы в растик
 	return 0;
 }
