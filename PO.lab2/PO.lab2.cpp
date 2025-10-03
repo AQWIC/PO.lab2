@@ -7,6 +7,8 @@ using namespace std;
 int main() {
 	setlocale(LC_ALL, "rus");
 //ыа ыыыа ыа
-
+	//ыыыа ыа
+	//щас бы в растик
+	//я этот гит
 	return 0;
 }
